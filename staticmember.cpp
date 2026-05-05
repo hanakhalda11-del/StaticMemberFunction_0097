@@ -30,3 +30,10 @@ void Mahasiswa::setID()
     id = ++nim;
 };
 
+void Mahasiswa::printAll()
+{
+    cout << "id :" << id << endl;
+    cout << "nama :" << nama << endl;
+    cout << endl;
+};
+
