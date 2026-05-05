@@ -18,3 +18,11 @@ class buku
     }
 };
 
+int main()
+{
+    buku bukunya;
+    //bukunya.setJudul('matematika');
+    //cout << bukunya.getJudul() << endl;
+    cout << bukunya.setJudul("matematika").getJudul(); //chain function calls
+    return 0;
+}
