@@ -30,26 +30,3 @@ void Mahasiswa::setID()
     id = ++nim;
 };
 
-void Mahasiswa::printAll()
-{
-    cout << "id :" << id << endl;
-    cout << "nama :" << nama << endl;
-    cout << endl;
-};
-
-int main()
-{
-    //membuat object dan memberi nilai
-    Mahasiswa mhs1("Lia Kurnia");
-    Mahasiswa mhs2("Fawwaz Sratus");
-    Mahasiswa mhs3("Andi Kurniawan");
-    Mahasiswa mhs4("Bagas Satya Widhi");
-
-    //memanggil prosedur printAll()
-    mhs1.printAll();
-    mhs2.printAll();
-    mhs3.printAll();
-    mhs4.printAll();
-
-    return 0;
-}
