@@ -43,17 +43,3 @@ public:
     }
 };
 
-int main() {
-    cout << "--- Daftar Inventaris Toko ---" << endl;
-    Produk Produk1;
-    Produk Produk2 (3);
-    Produk Produk3 ("Meja");
-    Produk Produk4 (4,"Kursi");
-
-    Produk1.tampilkan();
-    Produk2.tampilkan();
-    Produk3.tampilkan();
-    Produk4.tampilkan();
-
-    return 0;
-}
